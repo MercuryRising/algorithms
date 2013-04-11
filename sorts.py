@@ -1,16 +1,4 @@
 import random
-import itertools
-
-
-'''
-Exchange sorts:
-bubble_sort(l)
-cocktail_sort(l)
-comb_sort(l)
-gnome_sort(l)
-odd_even_sort(l)
-quicksort(l)
-'''
 
 def bubble_sort(l):
 	'''
@@ -162,11 +150,6 @@ def quick_sort(sequence):
 
 	return sorted_list
 
-'''
-Insertion sorts
-insertion_sort(l)
-'''
-
 def insertion_sort(l):
 	'''
 	Insertion sort creates the final sorted list element by element
@@ -231,37 +214,3 @@ if __name__ == "__main__":
 	test_list = list(test_list)
 	random.shuffle(test_list)
 	print(selection_sort(test_list))
-
-
-
-
-
-
-
-'''
-def flashsort(l):
-def introsort(l):
-def timsort(l):
-def insertion_sort(l):
-def library_sort(l):
-def patience_sorting(l):
-def shell_sort(l):
-def tree_sort(l):
-def merge_sort(l):
-def cycle_sort(l):
-def strand_sort(l):
-def bead_sort(l):
-def bucket_sort(l):
-def burstsort(l):
-def counting_sort(l):
-def pigeonhole_sort(l):
-def postman_sort(l):
-def radix_sort(l):
-def heapsort(l):
-def selection_sort(l):
-def smoothsort(l):
-def bitonic_sorter(l):
-def pancake_sorting(l):
-def topological_sort(l):
-def samplesort(l):
-'''
